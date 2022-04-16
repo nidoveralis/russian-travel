@@ -1,0 +1,11 @@
+.header__logo {
+    
+    
+    float: left;
+}
+
+@media screen and (max-width:320px) {
+    .header__logo {
+        width: 142px;
+    }
+}

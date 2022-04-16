@@ -1,0 +1,10 @@
+.page {
+    background-color: #2A2C2F;
+    font-family: 'Inter';
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+    padding: 0 44px;
+    color: #fff;
+
+}
