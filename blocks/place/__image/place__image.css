@@ -1,0 +1,4 @@
+.place__image {
+    width: calc(50% - 40px);
+    min-height: 100%;
+}
