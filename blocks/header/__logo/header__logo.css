@@ -1,11 +1,24 @@
 .header__logo {
     
-    
-    float: left;
 }
 
-@media screen and (max-width:320px) {
+@media (max-width: 425px) {
     .header__logo {
-        width: 142px;
+        max-width: 149px;
     }
+  
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .header__logo {
+        max-width: 186px;
+    }
+  
+}@media (min-width: 769px) and(max-width: 1024px) {
+  
+}
+@media (min-width: 1025px) and(max-width: 1280px) {
+  
+}
+@media (min-width: 1280px) {
+  
 }

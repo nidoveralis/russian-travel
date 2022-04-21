@@ -1,28 +1,19 @@
-.place__website {
-  margin: 0;
+.header__links {
+    
 }
 @media (max-width: 425px) {
-  .place__website {
-    
-  }
+    .header__links {
+        padding-top: 2px;
+    }
 }
 @media (min-width: 426px) and (max-width: 768px) {
-  .place__website {
-
-  }
+  
 }@media (min-width: 769px) and(max-width: 1024px) {
-  .place__website {
-
-  }
+  
 }
 @media (min-width: 1025px) and(max-width: 1280px) {
-  .place__website {
-
-  }
+  
 }
 @media (min-width: 1280px) {
-  .place__website {
-
-  }
+  
 }
-

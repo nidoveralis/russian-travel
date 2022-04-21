@@ -4,7 +4,25 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     margin: 0 auto;
-    padding: 0 44px;
+    
     color: #fff;
+    overflow: hidden;
+}
 
+@media screen and (max-width: 1024px) {
+    .page {
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        
+    }
 }

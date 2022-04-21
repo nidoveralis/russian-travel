@@ -1,28 +1,17 @@
-.place__website {
-  margin: 0;
+.photo-grid__item {
+    min-width: 288px;
 }
 @media (max-width: 425px) {
-  .place__website {
-    
-  }
+  
 }
 @media (min-width: 426px) and (max-width: 768px) {
-  .place__website {
-
-  }
+  
 }@media (min-width: 769px) and(max-width: 1024px) {
-  .place__website {
-
-  }
+  
 }
 @media (min-width: 1025px) and(max-width: 1280px) {
-  .place__website {
-
-  }
+  
 }
 @media (min-width: 1280px) {
-  .place__website {
-
-  }
+  
 }
-

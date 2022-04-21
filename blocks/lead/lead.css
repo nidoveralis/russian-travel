@@ -1,8 +1,40 @@
 .lead {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  max-height: 1005px;
 }
+
+@media (max-width: 425px) {
+  .lead {
+    padding-top: 30px;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .lead {
+    
+  }
+  
+}@media (min-width: 769px) and(max-width: 1024px) {
+  .lead {
+    
+  }
+  
+}
+@media (min-width: 1025px) and(max-width: 1280px) {
+  .lead {
+    
+  }
+  
+}
+@media (min-width: 1280px) {
+  .lead {
+    
+  }
+  
+}
+
+
