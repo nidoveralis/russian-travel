@@ -3,6 +3,21 @@
     margin: 0;
 }
 
+@media screen and (min-width: 1281px){
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .intro__title {
+        font-size: 54px;
+        line-height: 58px;
+        padding-bottom: 40px;
+    }
+}
+
 @media (max-width: 425px) {
     .intro__title {
         font-size: 32px;
@@ -11,21 +26,7 @@
         padding-bottom: 39px;
     }
 }
-@media (min-width: 426px) and (max-width: 768px) {
-    .intro__title {
-        
-    }
-}@media (min-width: 769px) and(max-width: 1024px) {
-    .intro__title {
 
-    }
-}
-@media (min-width: 1025px) and(max-width: 1280px) {
-    .intro__title {
-        font-size: 54px;
-        line-height: 58px;
-    }
-}
 
 
 

@@ -1,27 +1,30 @@
-.cover {
+.footer {
     
 }
 @media (max-width: 425px) {
-    .cover {
-    
-    }
+  .footer {
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 63px;
+  }
 }
 @media (min-width: 426px) and (max-width: 768px) {
-    .cover {
+  .footer {
     
-    }
+  }
 }@media (min-width: 769px) and(max-width: 1024px) {
-    .cover {
+  .footer {
     
-    }
+  }
 }
 @media (min-width: 1025px) and(max-width: 1280px) {
-    .cover {
+  .footer {
     
-    }
+  }
 }
 @media (min-width: 1280px) {
-    .cover {
+  .footer {
     
-    }
+  }
 }

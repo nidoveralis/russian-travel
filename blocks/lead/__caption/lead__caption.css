@@ -6,30 +6,17 @@
     max-width: 160px;
     margin: 0;
     padding-top: 8px;
+    font-size: 10px;
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .lead__caption {
-        font-size: 10px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__caption {
         padding-left: 16px;
-    }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-  .lead__caption {
-        
-    }
-}@media (min-width: 769px) and(max-width: 1024px) {
-    .lead__caption {
-        
-    }
-}
-@media (min-width: 1025px) and(max-width: 1280px) {
-    .lead__caption {
-        
-    }
-}
-@media (min-width: 1280px) {
-    .lead__caption {
-        font-size: 10px;
     }
 }

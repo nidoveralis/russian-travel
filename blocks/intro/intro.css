@@ -3,18 +3,22 @@
     
 }
 
-@media (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 100%;
+        padding: 88px 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .intro {
         max-width: 288px;
         height: 754px;
         padding: 64px 16px;
     }
 }
-@media (min-width: 426px) and (max-width: 768px) {
-    .intro {
-        max-width: 720px;
-    }
-}@media (min-width: 769px) and(max-width: 1024px) {
+@media (min-width: 769px) and(max-width: 1024px) {
     .intro {
         
     }

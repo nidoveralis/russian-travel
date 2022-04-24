@@ -2,16 +2,18 @@
   
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 88px 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .places {
     padding-top: 64px;
   }
 }
-@media (min-width: 426px) and (max-width: 768px) {
-  .places {
-  
-  }
-}@media (min-width: 769px) and(max-width: 1024px) {
+@media (min-width: 769px) and(max-width: 1024px) {
   .places {
   
   }

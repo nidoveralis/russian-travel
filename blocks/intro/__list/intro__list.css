@@ -1,6 +1,6 @@
 .intro__list {
     list-style-type: none;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -10,39 +10,26 @@
     font-weight: 400;
 }
 
-@media (max-width: 425px) {
+@media screen and (min-width: 1281px) {
+    .intro__list {
+        padding-top: 33px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .intro__list {
+        padding-top: 33px;
+    }
+}
+@media screen and  (max-width: 425px) {
     .intro__list {
         font-size: 12px;
         line-height: 18px;
-        padding-top: 35px;
-    }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-    .intro__list {
-
-    }
-}@media (min-width: 769px) and(max-width: 1024px) {
-  .intro__list {
-        
-    }
-}
-@media (min-width: 1025px) and(max-width: 1280px) {
-    .intro__list {
-        
-    }
-}
-@media (min-width: 1280px) {
-    .intro__list {
-        
+        padding-top: 34px;
     }
 }
 
-@media  (max-width: 320px) {
-    .intro__list {
-        
-    }    
 
-}
 
 
 

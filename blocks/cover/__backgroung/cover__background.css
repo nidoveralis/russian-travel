@@ -2,3 +2,27 @@
     z-index: 0;
     position: relative;
 }
+@media (max-width: 425px) {
+    .cover__background {
+        max-width: 100%;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .cover__background {
+        
+    }
+}@media (min-width: 769px) and(max-width: 1024px) {
+    .cover__background {
+        
+    }
+}
+@media (min-width: 1025px) and(max-width: 1280px) {
+    .cover__background {
+        
+    }
+}
+@media (min-width: 1280px) {
+    .cover__background {
+        
+    }
+}

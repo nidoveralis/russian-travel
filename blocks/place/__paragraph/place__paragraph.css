@@ -4,6 +4,26 @@
     font-weight: 400;
     line-height: 22px;
     text-align: start;
-    padding-bottom: 26px;
     height: max-content;
 }
+
+@media screen and (max-width: 1280px) {
+    .place__paragraph {
+        /*padding-bottom: 26px;*/
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        grid-column: 2/3;
+        padding-bottom: 0;
+        padding-top: 25px;
+    }
+    
+  }
+
+  @media screen and (max-width: 425px) {
+    .place__paragraph {
+        padding: 0 15px 25px 15px;
+    }
+  }

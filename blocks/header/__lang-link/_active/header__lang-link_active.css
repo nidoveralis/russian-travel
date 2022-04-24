@@ -1,0 +1,29 @@
+.header__lang-link_active {
+  border-bottom: 1px #fff solid;
+    
+}
+@media (max-width: 425px) {
+    .header__lang-link_active {
+        padding-top: 2px;
+        font-size: 19px;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .header__lang-link_active {
+
+  }
+}@media (min-width: 769px) and(max-width: 1024px) {
+  .header__lang-link_active {
+    
+  }
+}
+@media (min-width: 1025px) and(max-width: 1280px) {
+  .header__lang-link_active {
+    
+  }
+}
+@media (min-width: 1280px) {
+  .header__lang-link_active {
+    
+  }
+}

@@ -6,27 +6,3 @@
     margin: 0;
 }
 
-@media (max-width: 425px) {
-    .intro__text {
-        
-    }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-    .intro__text {
-        
-    }
-}@media (min-width: 769px) and(max-width: 1024px) {
-    .intro__text {
-        
-    }
-}
-@media (min-width: 1025px) and(max-width: 1280px) {
-    .intro__text {
-        
-    }
-}
-@media (min-width: 1280px) {
-    .intro__text {
-        
-    }
-}
