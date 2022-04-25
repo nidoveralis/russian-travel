@@ -6,13 +6,18 @@
         grid-template-rows: auto auto;
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
+        padding-bottom: 73px;
     }
+    .place:last-child {
+        padding-bottom: 0;
+      }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .place {
         padding-bottom: 50px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+        gap: 32px;
     }
 }
 

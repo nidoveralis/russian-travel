@@ -1,14 +1,9 @@
 .cover {
-    
+    position: relative;
 }
-@media (max-width: 425px) {
+@media screen and (max-width: 768px) {
     .cover {
-    
-    }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-    .cover {
-    
+    min-height: 480px;
     }
 }@media (min-width: 769px) and(max-width: 1024px) {
     .cover {

@@ -16,14 +16,15 @@
 @media screen and (max-width: 768px) {
     .place__paragraph {
         grid-column: 2/3;
-        padding-bottom: 0;
-        padding-top: 25px;
+        
     }
-    
+    .place__paragraph:first-child {
+      padding-bottom: 25px;
+    }
   }
 
   @media screen and (max-width: 425px) {
-    .place__paragraph {
-        padding: 0 15px 25px 15px;
+    .place__paragraph:first-child {
+      padding-bottom: 25px;
     }
   }

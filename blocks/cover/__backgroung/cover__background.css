@@ -1,17 +1,24 @@
 .cover__background {
     z-index: 0;
     position: relative;
+    max-width: 100%;
+    background-image: url("../../../images/cover__background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-@media (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        max-height: 100%;
+      }
+  }
+@media screen and (max-width: 425px) {
     .cover__background {
         max-width: 100%;
     }
 }
-@media (min-width: 426px) and (max-width: 768px) {
-  .cover__background {
-        
-    }
-}@media (min-width: 769px) and(max-width: 1024px) {
+@media (min-width: 769px) and(max-width: 1024px) {
     .cover__background {
         
     }
