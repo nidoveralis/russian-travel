@@ -2,9 +2,11 @@
     position: absolute;
     z-index: 1;
     background-color: #2A2C2F;
+    color: #fff;
     margin: 0;
     min-height:  100%;
     min-width: 100%;
+    cursor: pointer;
     opacity: .2;
     transition: opacity .5s;
     -webkit-transition: opacity .5s;
