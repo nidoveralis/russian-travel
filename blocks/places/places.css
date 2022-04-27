@@ -2,19 +2,32 @@
   
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
   .places {
     margin: 92px 100px;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .places {
+    margin: 92px 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin: 92px 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .places {
-    margin: 88px 24px 90px;
+    padding: 88px 24px 90;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
-    margin-top: 64px;
+    padding: 64px 0 0;
   }
 }

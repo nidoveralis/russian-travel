@@ -2,4 +2,13 @@
   list-style-type: none;
   display: flex;
   padding: 0;
+  margin: 0;
+}
+@media screen and (max-width: 425px) {
+  .footer__list-links {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    min-height: 250px;
+  }
 }

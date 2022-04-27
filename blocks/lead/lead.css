@@ -5,20 +5,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  max-height: 1005px;
 }
 
 @media screen and (min-width: 1281px) {
   .lead {
-    
+    padding: 0 100px;
   }
 }
 @media screen and (max-width: 1280px) {
   .lead {
     padding: 0 100px;
+    max-height: 1005px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead {
     padding: 0;
   }

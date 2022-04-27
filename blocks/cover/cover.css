@@ -2,7 +2,16 @@
     position: relative;
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1281px){
+    .cover{
+        max-width: 100%;
+        min-height: 740px;
+        margin-bottom: 92px;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
     .cover{
         max-width: 100%;
         min-height: 740px;
@@ -13,12 +22,21 @@
 @media screen and (max-width: 1024px){
     .cover {
         min-height: 640px;
-        margin-bottom: 96px;
+        bottom: 96px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
-    min-height: 480px;
+        min-height: 480px;
+        margin-top: 90px;
+    }
+}
+@media screen and (max-width: 465px) {
+    .cover {
+    min-height: 200px;
+    min-width: 320px;
+    right: 0;
+    top: 66px;
     }
 }
