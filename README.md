@@ -21,3 +21,4 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+https://nidoveralis.github.io/russian-travel/index.html
