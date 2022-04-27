@@ -1,35 +1,27 @@
 .cover__background {
     z-index: 0;
-    position: relative;
-    max-width: 100%;
+    position: absolute;
+    min-width: 100%;
     background-image: url("../../../images/cover__background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
     .cover__background {
-        max-height: 100%;
-      }
-  }
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        min-height: 100%;
+        left: -48px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .cover__background {
-        max-width: 100%;
-    }
-}
-@media (min-width: 769px) and(max-width: 1024px) {
-    .cover__background {
-        
-    }
-}
-@media (min-width: 1025px) and(max-width: 1280px) {
-    .cover__background {
-        
-    }
-}
-@media (min-width: 1280px) {
-    .cover__background {
-        
     }
 }

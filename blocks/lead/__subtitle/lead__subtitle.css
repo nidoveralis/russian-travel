@@ -2,6 +2,7 @@
     font-weight: 400;
     text-align: center;
     margin: 0 auto;
+    text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -10,6 +11,8 @@
         max-width: 640px;
         font-size: 30px;
         line-height: 36px;
+        padding-top: 32px;
+        padding-bottom: 64px;
     }
 }
 
@@ -19,7 +22,8 @@
         max-width: 640px;
         font-size: 30px;
         line-height: 36px;
-        padding-top: 64px;
+        padding-top: 32px;
+        padding-bottom: 64px;
     }
 }
 
@@ -29,15 +33,18 @@
         max-width: 640px;
         font-size: 30px;
         line-height: 36px;
-        padding-top: 56px;
+        margin: 0 192px;
+        padding-bottom: 56px;
+        padding-top: 36px;
     }
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     line-height: 36px;
+    max-width: 605px;
     max-height: 40px;
-    padding-bottom: 56px;
+    padding-bottom: 85px;
     }
 }
 

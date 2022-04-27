@@ -4,6 +4,8 @@
     font-weight: 700;
     margin: 0;
     padding: 0;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .intro__list span {
@@ -21,11 +23,16 @@
         padding-top: 33px;
     }
 }
-@media screen and  (max-width: 425px) {
+@media screen and (max-width: 1024px) {
     .intro__list {
-        font-size: 12px;
-        line-height: 18px;
+        padding-top: 16px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro__list {
         padding-top: 34px;
+        
     }
 }
 

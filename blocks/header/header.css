@@ -6,18 +6,29 @@
 @media screen and (min-width: 1281px) {
     .header {
         max-height: 52px;
+        padding-top: 48px;
+        padding-bottom: 56px;
     }
   
 }
 @media screen and (max-width: 1280px) {
     .header {
         max-height: 52px;
+        padding-top: 48px;
+        padding-bottom: 56px;
+    }
+  
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        padding-top: 32px;
+        padding-bottom: 39px;
     }
   
 }
 @media screen and (max-width: 768px) {
     .header {
-        padding: 28px 24px 48px;
+        padding: 33px 21px 40px;
     }
   
 }

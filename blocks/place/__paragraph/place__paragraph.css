@@ -7,24 +7,26 @@
     height: max-content;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
+  .place__paragraph:nth-child(2){
+    padding-top: 26px;
+  }
+  }
+
+  @media screen and (max-width: 1024px) {
     .place__paragraph {
-        /*padding-bottom: 26px;*/
+      line-height: 29px;
     }
   }
 
 @media screen and (max-width: 768px) {
     .place__paragraph {
         grid-column: 2/3;
+        line-height: 26px;
+        font-size: 16px;
         
     }
-    .place__paragraph:first-child {
-      padding-bottom: 25px;
-    }
-  }
-
-  @media screen and (max-width: 425px) {
-    .place__paragraph:first-child {
-      padding-bottom: 25px;
+    .place__paragraph:nth-child(2){
+      padding-top: 25px;
     }
   }

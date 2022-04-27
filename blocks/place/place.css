@@ -1,12 +1,27 @@
 .place {
     display: grid;
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1280px) {
     .place {
         grid-template-rows: auto auto;
-        grid-template-columns: 340px 1fr;
+        grid-template-columns: 460px 1fr;
         gap: 48px 28px;
         padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-rows: auto auto;
+        grid-template-columns: 440px 1fr;
+        gap: 48px 28px;
+        padding-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 340px 1fr;
     }
     .place:last-child {
         padding-bottom: 0;

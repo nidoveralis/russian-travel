@@ -2,20 +2,21 @@
     font-weight: 900;
     position: absolute;
     z-index: 3;
-    margin: 0 12%;
+    margin: 0 8%;
     display: inline-block;
     text-align: center;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .cover__title {
         font-size: 72px;
         line-height: 76px;
-        bottom: 50%;
-        max-width: 560px;
+        top: 33%;
+        left: 0;
+        right: 0;
+        max-width: 100%;
     }
 }
-
 @media screen and (max-width: 600px) {
     .cover__title {
         font-size: 32px;
