@@ -1,21 +1,9 @@
 .header__logo {
-    
+  max-width: 182px;
 }
 
-@media screen and (min-width: 1281px) {
-    .header__logo {
-        max-width: 182px;
-    }
-}
-@media screen and (max-width: 1280px) {
-    .header__logo {
-        max-width: 182px;
-    }
-}
 @media screen and (max-width: 425px) {
-    .header__logo {
-        max-width: 149px;
-    }
-  
+  .header__logo {
+    max-width: 149px;
+  }
 }
-

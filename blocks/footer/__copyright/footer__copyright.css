@@ -9,9 +9,15 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 760px) {
   .footer__copyright {
     line-height: 14px;
-    padding: 15px 0;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .footer__copyright {
+    line-height: 14px;
+    padding-top: 23px;
   }
 }

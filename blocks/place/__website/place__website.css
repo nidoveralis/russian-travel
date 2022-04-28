@@ -6,17 +6,3 @@
   justify-content: space-between;
   align-self: end;
 }
-
-@media screen and (max-width: 768px) {
-  .place__website {
-    
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .place__website {
-
-  }
-}
-
-
