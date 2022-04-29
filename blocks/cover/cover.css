@@ -1,14 +1,16 @@
 .cover {
   background-image: url("../../../images/cover__background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  display: none;
+  position: relative;
 }
 
 .cover::before {
   content: "";
   opacity: .3;
   background-color: #2A2C2F;
+  position: absolute;
   min-width: 100%;
   min-height: 100%;
   transition: opacity .5s;

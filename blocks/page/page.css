@@ -4,7 +4,7 @@
   font-weight: 900;
   font-display: swap;
   src: url('../../vendor/Inter-Black.woff2?v=3.19') format('woff2'),
-    url('../../vendor//Inter-Black.woff?v=3.19') format('woff');
+    url('./Inter-Black.woff?v=3.19"') format('woff');
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../../vendor//Inter-Regular.woff2?v=3.19') format('woff2'),
-    url('../../vendor//Inter-Regular.woff?v=3.19') format('woff');
+  src: url('../../vendor/Inter-Regular.woff2?v=3.19') format('woff2'),
+    url('../../vendor/Inter-Regular.woff?v=3.19') format('woff');
 }
 
 @font-face {
@@ -21,8 +21,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../../vendor//Inter-Bold.woff') format('woff'),
-    url('../../vendor//Inter-Bold.woff2') format('woff2');
+  src: url('../../vendor/Inter-Bold.woff') format('woff'),
+    url('../../vendor/Inter-Bold.woff2') format('woff2');
 }
 
 .page {
