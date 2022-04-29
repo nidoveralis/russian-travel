@@ -1,23 +1,2 @@
 .footer__copyright {
-  font-size: 14px;
-  margin: 0;
-}
-
-@media screen and (max-width: 1280px) {
-  .footer__copyright {
-    line-height: 16px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .footer__copyright {
-    line-height: 14px;
-  }
-}
-
-@media screen and (max-width: 636px) {
-  .footer__copyright {
-    line-height: 14px;
-    padding-top: 23px;
-  }
 }

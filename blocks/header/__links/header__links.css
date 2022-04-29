@@ -1,4 +1,4 @@
 .header__links {
-  display: flex;
-  align-items: center;
+  margin-right: 4px;
+  margin-top: 3px;
 }
