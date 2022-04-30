@@ -26,6 +26,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .lead {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .lead {
     padding-top: 0;

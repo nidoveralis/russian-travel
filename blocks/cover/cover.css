@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  width: 100%;
 }
 
 .cover::before {
