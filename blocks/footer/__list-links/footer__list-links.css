@@ -13,9 +13,9 @@
   }
 }
 
-@media screen and (max-width: 425x) {
+@media screen and (max-width: 425px) {
   .footer__list-links {
     margin-bottom: 47px;
-    min-height: 246px;
+    min-height: 249px;
   }
 }
