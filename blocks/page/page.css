@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('../../vendor/Inter-Black.woff2?v=3.19') format('woff2'),
-    url('./Inter-Black.woff?v=3.19"') format('woff');
+  src: url('../../vendor/fonts/Inter-Black.woff2') format('woff2'),
+    url('../../vendor/fonts/Inter-Black.woff') format('woff');
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../../vendor/Inter-Regular.woff2?v=3.19') format('woff2'),
-    url('../../vendor/Inter-Regular.woff?v=3.19') format('woff');
+  src: url('../../vendor/fonts/Inter-Regular.woff2') format('woff2'),
+    url('../../vendor/fonts/Inter-Regular.woff') format('woff');
 }
 
 @font-face {
@@ -21,13 +21,13 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../../vendor/Inter-Bold.woff') format('woff'),
-    url('../../vendor/Inter-Bold.woff2') format('woff2');
+  src: url('../../vendor/fonts/Inter-Bold.woff') format('woff'),
+    url('../../vendor/fonts/Inter-Bold.woff2') format('woff2');
 }
 
 .page {
   background-color: #2A2C2F;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   margin: 0 auto;
