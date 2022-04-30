@@ -7,7 +7,7 @@
   .intro__title {
     font-size: 54px;
     line-height: 58px;
-    padding-bottom: 41px;
+    padding-bottom: 40px;
   }
 }
 
@@ -15,20 +15,19 @@
   .intro__title {
     font-size: 54px;
     line-height: 58px;
-    padding-bottom: 41px;
+    padding-bottom: 40px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .intro__title {
-    padding-bottom: 42px;
     max-width: 760px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    font-size: 52px;
+    padding-bottom: 39px;
   }
 }
 
@@ -37,6 +36,5 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 251px;
-    padding-bottom: 39px;
   }
 }

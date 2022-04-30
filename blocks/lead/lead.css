@@ -16,7 +16,6 @@
 @media screen and (max-width: 1280px) {
   .lead {
     padding: 0 100px;
-    max-height: 1005px;
   }
 }
 
@@ -29,11 +28,5 @@
 @media screen and (max-width: 768px) {
   .lead {
     padding: 0;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .lead {
-    padding-top: 0;
   }
 }

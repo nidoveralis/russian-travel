@@ -24,15 +24,16 @@
   .place {
     grid-template-rows: auto auto;
     grid-template-columns: 440px 1fr;
-    gap: 48px 28px;
-    padding-bottom: 73px;
+    gap: 48px 32px;
+    padding-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 1fr;
-    gap: 48px 14px;
+    gap: 45px 28px;
+    padding-bottom: 74px;
   }
 
   .place:last-child {

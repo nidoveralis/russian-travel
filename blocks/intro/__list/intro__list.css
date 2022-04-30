@@ -27,6 +27,12 @@
 
 @media screen and (max-width: 768px) {
   .intro__list {
-    padding-top: 34px;
+    padding-top: 33px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list {
+    padding-top: 35px;
   }
 }

@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  min-height: 100%;
 }
 
 @media screen and (min-width: 1281px) {

@@ -10,6 +10,12 @@
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 48px;
-    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 425x) {
+  .footer__list-links {
+    margin-bottom: 47px;
+    min-height: 246px;
   }
 }

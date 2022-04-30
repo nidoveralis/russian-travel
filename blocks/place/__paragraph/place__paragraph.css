@@ -4,27 +4,23 @@
   font-weight: 400;
   line-height: 22px;
   text-align: start;
-  height: max-content;
-  letter-spacing: .5px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1281px) {
   .place__paragraph {
     line-height: 29px;
+    padding-bottom: 26px;
   }
 
-  .place__paragraph:nth-child(2) {
-    padding-top: 26px;
+  .place__paragraph:last-of-type() {
+    padding-top: 0;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .place__paragraph {
     line-height: 29px;
-  }
-
-  .place__paragraph:nth-child(2) {
-    padding-top: 26px;
+    padding-bottom: 26px;
   }
 }
 
@@ -34,14 +30,17 @@
     line-height: 26px;
     font-size: 16px;
     min-width: 135px;
-  }
-
-  .place__paragraph:nth-child(2) {
-    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .place__paragraph {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .place__paragraph {
     padding: 0 16px;
   }
