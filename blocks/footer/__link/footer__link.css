@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 636px) {
   .footer__link {
     font-size: 24px;
     padding-bottom: 32px;
