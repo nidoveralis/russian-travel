@@ -34,5 +34,6 @@
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__list-links/footer__list-links.css');
+@import url('../blocks/footer/__list-link/footer__list-link.css');
 @import url('../blocks/footer/__link/footer__link.css');
 @import url('../blocks/link/link.css');

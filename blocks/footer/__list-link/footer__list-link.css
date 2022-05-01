@@ -1,0 +1,17 @@
+@media screen and (min-width: 1281px) {
+  .footer__list-link {
+    padding-right: 18px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__list-link {
+    padding-right: 19px;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .footer__list-link {
+    padding-bottom: 36px;
+  }
+}

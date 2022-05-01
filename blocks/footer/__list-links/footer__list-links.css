@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 635px) {
   .footer__list-links {
-    margin-bottom: 47px;
+    margin-bottom: 11px;
   }
 }
 
@@ -15,6 +15,5 @@
   .footer__list-links {
     flex-direction: column;
     justify-content: space-between;
-    height: 310px;
   }
 }
