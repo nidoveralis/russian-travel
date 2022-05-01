@@ -15,6 +15,6 @@
   .footer__list-links {
     flex-direction: column;
     justify-content: space-between;
-    min-height: 249px;
+    height: 310px;
   }
 }

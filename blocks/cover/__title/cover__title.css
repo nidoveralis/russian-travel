@@ -1,6 +1,6 @@
 .cover__title {
   font-weight: 900;
-  display: inline-block;
+  display: block;
   text-align: center;
   margin: 0 auto;
 }
