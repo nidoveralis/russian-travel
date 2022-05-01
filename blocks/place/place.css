@@ -1,10 +1,10 @@
 .place {
   display: grid;
+  grid-template-rows: auto auto;
 }
 
 @media screen and (min-width: 1281px) {
   .place {
-    grid-template-rows: auto auto;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
     padding-bottom: 80px;
@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 1280px) {
   .place {
-    grid-template-rows: auto auto;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
     padding-bottom: 80px;
@@ -22,26 +21,22 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-rows: auto auto;
     grid-template-columns: 440px 1fr;
     gap: 48px 32px;
-    padding-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 854px) {
   .place {
-    grid-template-rows: auto auto;
     grid-template-columns: 375px 1fr;
     gap: 47px 30px;
-    padding-bottom: 80px;
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 1fr;
-    gap: 45px 28px;
+    gap: 46px 28px;
     padding-bottom: 74px;
   }
 }
@@ -56,8 +51,6 @@
 
 @media screen and (max-width: 610px) {
   .place {
-    padding-bottom: 50px;
     grid-template-columns: 1fr;
-    gap: 32px;
   }
 }

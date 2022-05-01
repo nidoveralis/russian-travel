@@ -26,31 +26,27 @@
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    max-width: 640px;
     padding-bottom: 57px;
-    padding-top: 31px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     max-width: 605px;
-    padding-bottom: 56px;
-    padding-top: 32px;
+    padding: 32px 24px 56px;
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width:567px) {
   .lead__subtitle {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .lead__subtitle {
-    padding-top: 16px;
-    padding-bottom: 39px;
     font-size: 16px;
     line-height: 20px;
+    padding: 16px 16px 39px;
   }
 }

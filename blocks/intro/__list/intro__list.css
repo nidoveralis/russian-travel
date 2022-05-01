@@ -2,37 +2,36 @@
   list-style-type: none;
   font-weight: 700;
   margin: 0;
-  padding: 0;
   font-size: 12px;
   line-height: 18px;
 }
 
 @media screen and (min-width: 1281px) {
   .intro__list {
-    padding-top: 33px;
+    padding: 33px 0 0;
   }
 }
 
 @media screen and (max-width: 1280px) {
   .intro__list {
-    padding-top: 33px;
+    padding: 33px 0 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .intro__list {
-    padding-top: 32px;
+    padding: 32px 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro__list {
-    padding-top: 33px;
+    padding: 33px 0 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro__list {
-    padding-top: 35px;
+    padding: 35px 0 0;
   }
 }

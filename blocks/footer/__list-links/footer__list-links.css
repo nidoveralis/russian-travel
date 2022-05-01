@@ -5,17 +5,16 @@
   margin: 0;
 }
 
-@media screen and (max-width: 636px) {
+@media screen and (max-width: 635px) {
   .footer__list-links {
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 47px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .footer__list-links {
-    margin-bottom: 47px;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 249px;
   }
 }
